@@ -41,7 +41,7 @@ enum Difficulty
     HARD = -1
 };
 
-/*		FUNCTION DECLARATION	c	*/
+/*		FUNCTION DECLARATION	*/
 void clearScreen(void);
 void printInPosXY(int x, int y, char const *str);
 void loadGame(int difficulty);
@@ -60,7 +60,7 @@ int menuSelector(int x, int y, int yStart);
 void matriscopy(void *destmat, void *srcmat);
 char waitForAnyKey(void);
 
-/*		FUNCTION DECLARATION		*/
+/*		MAIN		*/
 int main(void)
 {
     int difficulty = EASY;
